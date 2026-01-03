@@ -1,5 +1,5 @@
 from stats import *
-
+import sys
 
 def main():
     file_path="./books/frankenstein.txt"
