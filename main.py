@@ -2,8 +2,9 @@ from stats import *
 import sys
 
 def main():
-    file_path="./books/frankenstein.txt"
-    
+    print("Usage: python3 main.py <path_to_book>")
+
+    file_path=sys.argv[1]
     file_contents=get_books_text(file_path)
 
     words=file_contents.split()
